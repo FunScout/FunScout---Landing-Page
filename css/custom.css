@@ -1,0 +1,261 @@
+body {
+  font-size: 13px;
+  font-family: 'allerregular';
+  overflow-x: hidden; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out; }
+
+a:hover {
+  color: #ef5821 !important;
+  text-decoration: none; }
+
+img {
+  max-width: 100%; }
+
+input,
+textarea,
+select {
+  padding: .5em;
+  border-radius: .45em; }
+
+.ir {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.center {
+  text-align: center; }
+
+.no-padding {
+  padding: 0; }
+
+input.error {
+  border: 2px solid #A94442; }
+
+.blue-bg {
+  background: #05769e; }
+
+.orange-bg {
+  background: #f15922; }
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+#header {
+  padding: 1em 0;
+  position: relative;
+  display: inline-block;
+  width: 100%; }
+  #header .funscout-logo {
+    float: left; }
+  #header .promo-logos {
+    float: right; }
+
+/* ==========================================================================
+   Hero
+   ========================================================================== */
+#hero-section {
+  padding: 2em; }
+  #hero-section .funscout-video {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    max-height: 360px;
+    height: 320px;
+    background: #000;
+    margin: auto;
+    overflow: hidden; }
+  #hero-section .raffle-form-wrap {
+    padding: 2em;
+    color: #fff; }
+    #hero-section .raffle-form-wrap a {
+      color: #fff; }
+    #hero-section .raffle-form-wrap input {
+      font-size: 1.2em; }
+    #hero-section .raffle-form-wrap .raffle-email {
+      width: 80%;
+      display: block; }
+    #hero-section .raffle-form-wrap .raffle-number {
+      width: 45%;
+      display: block;
+      float: left; }
+    #hero-section .raffle-form-wrap .raffle-number,
+    #hero-section .raffle-form-wrap .raffle-submit {
+      margin-top: 1em; }
+    #hero-section .raffle-form-wrap .raffle-submit {
+      margin: 1em;
+      border-radius: 50%;
+      border: 3px solid #014961;
+      background: #fff;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
+    #hero-section .raffle-form-wrap .raffle-submit:hover {
+      background: #ef5821;
+      color: #fff; }
+    #hero-section .raffle-form-wrap .get-a-raffle {
+      text-transform: uppercase; }
+
+/* ==========================================================================
+   PRIZES
+   ========================================================================== */
+.funscout-prizes {
+  margin: auto;
+  display: block; }
+
+/* ==========================================================================
+   BX SLIDER
+   ========================================================================== */
+.bx-wrapper .bx-viewport,
+.bx-wrapper .bx-viewport .slide {
+  min-height: 93px; }
+.bx-wrapper img {
+  margin: auto; }
+
+/* ==========================================================================
+   CONTACT FORM
+   ========================================================================== */
+#contact-form-wrap .btn-info {
+  margin: 2.8em auto;
+  display: block; }
+#contact-form-wrap #contact-form {
+  margin: 2.8em 0 2em; }
+  #contact-form-wrap #contact-form input,
+  #contact-form-wrap #contact-form textarea,
+  #contact-form-wrap #contact-form select {
+    width: 100%;
+    display: block;
+    margin: 0 auto 1em; }
+
+/* ==========================================================================
+   MODAL
+   ========================================================================== */
+#shareModal .modal-title {
+  text-align: center; }
+#shareModal .modal-body h3 {
+  text-align: center; }
+#shareModal .modal-body .close {
+  position: absolute;
+  top: .5em;
+  right: .5em; }
+#shareModal .modal-body .option img {
+  margin: auto;
+  text-align: center;
+  display: block; }
+#shareModal .modal-body .option .social-share {
+  /*
+  .fb{background-image:url('../img/share-fb.png');}
+  .tw{background-image:url('../img/share-tw.png');}
+  */ }
+  #shareModal .modal-body .option .social-share a {
+    width: 100%;
+    height: auto;
+    margin: .5em auto;
+    display: block;
+    background-size: cover; }
+#shareModal .modal-body .fs-survey li {
+  margin-bottom: 3em; }
+  #shareModal .modal-body .fs-survey li span {
+    display: inline-block;
+    vertical-align: top; }
+#shareModal .modal-body .fs-survey .age-wrap {
+  padding: 1em 2em; }
+  #shareModal .modal-body .fs-survey .age-wrap .age-input {
+    margin-left: 15px; }
+#shareModal .modal-body .fs-survey .suvey-submit button {
+  width: 75%;
+  margin: auto;
+  display: block; }
+#shareModal .modal-body .chosen-container {
+  width: 70% !important; }
+#shareModal .modal-body .chosen-container-multi .chosen-choices li.search-field input[type=text] {
+  height: auto;
+  width: 70%;
+  display: block; }
+
+#shareModal2 h2.title {
+  color: #f15922; }
+#shareModal2 p {
+  font-size: 1.3em; }
+
+/* ==========================================================================
+   Animation
+   ========================================================================== */
+.pulse {
+  -webkit-animation-name: 'pulse_animation';
+  -webkit-animation-duration: 5000ms;
+  -webkit-transform-origin: 70% 70%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear; }
+
+@-webkit-keyframes pulse_animation {
+  0% {
+    -webkit-transform: scale(1); }
+
+  30% {
+    -webkit-transform: scale(1); }
+
+  40% {
+    -webkit-transform: scale(1.08); }
+
+  50% {
+    -webkit-transform: scale(1); }
+
+  60% {
+    -webkit-transform: scale(1); }
+
+  70% {
+    -webkit-transform: scale(1.05); }
+
+  80% {
+    -webkit-transform: scale(1); }
+
+  100% {
+    -webkit-transform: scale(1); } }
+
+@media (max-width: 775px) {
+  .funscout-logo,
+  .promo-logos {
+    width: 100%;
+    text-align: center;
+    display: block; }
+
+  #header {
+    padding: .5em 0; }
+
+  #hero-section {
+    /*
+            .fs-video-wrap{
+                float:right;
+            }
+    
+            .fs-raffle-wrap{
+                float:left;
+            }
+    */ }
+    #hero-section .fs-video-wrap,
+    #hero-section .funscout-video {
+      height: 226px;
+      overflow: hidden; }
+    #hero-section .raffle-form-wrap {
+      padding: 0; }
+      #hero-section .raffle-form-wrap h3 {
+        margin-top: 0; }
+      #hero-section .raffle-form-wrap .raffle-number {
+        width: 68%; }
+      #hero-section .raffle-form-wrap .raffle-email {
+        width: 100%; }
+
+  #contact-form {
+    padding: 1em; } }
+.bx-wrapper .bx-viewport {
+  box-shadow: none; }
